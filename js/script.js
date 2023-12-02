@@ -9,9 +9,9 @@ function init(){
 	var input = document.getElementById('entryinput');
 	document.getElementById('textoutput').innerHTML = input.value;
 	alert("Ella Brady: " + input.value);
-  });
+  }
 
   button.addEventListener('click', buttonClicked);
-  });
+  }
 
-  window.addEventListener('load', init);
+window.addEventListener('load', init);
